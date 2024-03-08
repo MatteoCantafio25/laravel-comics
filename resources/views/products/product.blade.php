@@ -8,5 +8,10 @@
 @endsection
 
 @section('main-content')
-    @include('includes.serie')
+    @include('includes.products.serie')
+@endsection
+
+
+@section('details')
+    @include('includes.products.details')
 @endsection

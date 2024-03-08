@@ -25,6 +25,8 @@
     <!-- Main -->
     @yield('main-content')
 
+    @yield('details')
+
     {{-- Spam --}}
     @yield('spam')
 
