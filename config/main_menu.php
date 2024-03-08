@@ -13,3 +13,5 @@ return [
     ['text' => 'NEWS', 'route_name' => 'home'],
     ['text' => 'SHOP', 'route_name' => 'home']
 ];
+
+// Tutti hanno la stessa route perchè in questo momento non ho altre pagine per ogni categoria dell'header
