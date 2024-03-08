@@ -14,22 +14,22 @@ header {
     ul {
         display: flex;
         padding: 0;
+        li {
+            list-style-type: none;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 55px 10px;
+            color: #56616C;
+        }
+
+        a:hover {
+            border-bottom: 4px solid #0282F9;
+        }
     }
 
-    li {
-        list-style-type: none;
-        font-weight: bold;
-    }
-
-    a {
-        text-decoration: none;
-        padding: 55px 10px;
-        color: #56616C;
-    }
-
-    a:hover {
-        border-bottom: 4px solid #0282F9;
-    }
 }
 
 .categories {

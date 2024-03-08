@@ -18,3 +18,13 @@ Route::get('/', function () {
 
     return view('home', compact('series'));
 })->name('home');
+
+Route::get('/products/{index}', function ($index) {
+    $series = config('series');
+
+    if(!is_numeric($index) || $index < 0 || $index >= count($series)){
+        abort(404);
+    }
+
+    return view('products.product', ['product' => $series[$index]]);
+})->name('product');

@@ -16,6 +16,16 @@ main {
     }
 }
 
+.series-card{
+    a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        gap: 5px;
+    }
+}
+
 .button-container {
     padding: 20px 0;
     text-align: center;

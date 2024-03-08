@@ -25,7 +25,7 @@
     <!-- Main -->
     @yield('main-content')
 
-    <!-- Spam -->
+    {{-- Spam --}}
     @yield('spam')
 
     <!-- Footer -->
@@ -37,7 +37,7 @@
         @include('includes.footerbottom')
     </footer>  
 
-    <!-- Scripts -->
+    {{-- Scripts --}}
     @yield('scripts')
 </body>
 </html>

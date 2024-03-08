@@ -1,8 +1,8 @@
 <header>
         <div class="header-container">
-            <div class="figure-container">
+            <a href="{{route('home')}}" class="figure-container">
                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="logo">
-            </div>
+            </a>
             <div class="categories">
                 <ul>
                 @foreach (config('main_menu') as $link )
